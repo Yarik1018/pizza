@@ -1,0 +1,79 @@
+.basket-container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .clear-button {
+    float: right;
+    background-color: transparent;
+    border: none;
+    color: #999;
+    cursor: pointer;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .basket-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pizza-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 16px;
+  }
+  
+  .pizza-details {
+    flex: 1;
+  }
+  
+  .pizza-price {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .basket-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .menu-button {
+    background-color: transparent;
+    color: #007bff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: underline;
+  }
+  
+  .total-price {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .order-button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

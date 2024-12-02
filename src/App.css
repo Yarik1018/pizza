@@ -1,38 +1,263 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: "Gotham";
+  src: local("Gotham"), url(./gotham_light.otf) format("opentype");
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: "Geometria";
+  src: local("Geometria"), url(./Geometria-Light.ttf) format("truetype");
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  font-family: "Gotham", "Geometria", Arial, Helvetica, sans-serif;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+a {
+  text-decoration: none;
+}
+.header-container {
+  width: 1920px;
+  height: 136px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.logo {
+  display: flex;
+  padding-left: 237px;
+  padding-right: 375px;
+}
+.header-img {
+  width: 136px;
+  height: 136px;
+  padding-right: 21px;
+}
+.header-text {
+  display: block;
+}
+.header-name {
+}
+.header-undername {
+}
+.header-menu {
+}
+.contact {
+  padding-right: 305px;
+}
+.header-phnum {
+}
+.header-info {
+}
+.header-basket-img {
+  width: 18px;
+  height: 17px;
+  padding-left: 12px;
+  padding-right: 6px;
+  display: block;
+}
+.header-basket {
   color: white;
+  background-color: #e95b10;
+  width: 135px;
+  height: 38px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  text-align: center;
+  display: flex;
+  padding-top: 11px;
+  padding-right: 43px;
+  cursor: pointer;
 }
-
-.App-link {
-  color: #61dafb;
+.menu-under-head {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
 }
+.menu-pizza {
+  margin: 0;
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 42px;
+  color: black;
+}
+.menu-drink {
+  margin: 0;
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 42px;
+  color: black;
+}
+.catalog {
+  background-color: #f8f8f8;
+  padding-bottom: 30px;
+  padding-top: 175px;
+  display: flex;
+  justify-content: center;
+}
+.catalog-col {
+  background-color: #ffffff;
+  width: 282.5px;
+  height: 567.5px;
+  border-radius: 8px;
+  border: none;
+}
+.catalog-all {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  width: 908px;
+}
+.pizza-img {
+  width: 282.5px;
+  height: 282.5px;
+  padding-bottom: 32px;
+}
+.pizza-name {
+  color: #e95a10;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 12px;
+}
+.catalog-pizza-settinx {
+  padding-left: 26px;
+}
+.sizes {
+  padding-bottom: 11px;
+}
+.size-pizza {
+  cursor: pointer;
+  width: 75px;
+  height: 28px;
+  border: 1px solid #f9e6d3;
+  border-radius: 4px;
+  background-color: white;
+}
+.active {
+  background-color: #f9e6d3;
+}
+.catalog-tisto {
+  display: flex;
+  align-items: center;
+  padding-bottom: 9px;
+}
+.catalog-tisto-name {
+  padding-right: 16px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  margin: 0;
+}
+.catalog-select {
+  border: 1px solid #f9e6d3;
+  border-radius: 4px;
+  width: 180px;
+  height: 30px;
+  cursor: pointer;
+}
+.catalog-price-order {
+  display: flex;
+  align-items: center;
+}
+.price {
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 42px;
+  padding-right: 23px;
+  margin: 0;
+  width: 76.2px;
+  height: fit-content;
+}
+.order-btn {
+  background: #54aa0f;
+  border: none;
+  border-radius: 5px;
+  width: 130px;
+  height: 42px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 42px;
+  cursor: pointer;
+}
+.catalog-info-pizza {
+  padding-left: 22px;
+  padding-top: 19px;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+  padding-right: 20px;
+}
+.catalog-col-drink{
+  width: 333px;
+  height: 604px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: none;
+}
+.drink-img {
+  width: 333px;
+  height: fit-content;
+}
+.drink-name {
+  padding-left: 32px;
+  text-align: left;
+  color: #000;
+  text-decoration: none;
+  font-weight: normal;
+}
+.drink-size {
+  padding-left: 32px;
+  text-align: left;
+  font-size: px;
+  font-weight: normal;
+}
+.drink-select-ml {
+  padding-left: 32px;
+  text-align: left;
+  background: #f3f3f3;
+  border-radius: 8px;
+  color: #000;
+  width: 266px;
+  height: 32px;
+  border: none;
+}
+.drink-button-buy {
+  display: flex;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+  background: #00bb16;
+  border-radius: 8px;
+  transition: all .3s linear;
+  width: 269px;
+  height: 43px;
+  border: none;
+  padding-top: 14px;
+  padding-left: 67px;
+  margin-top: 45px;
+}
+.drink-basket-img{
+  width: 18px;
+  height: 17px;
+  padding-left: 12px;
+  padding-right: 6px;
+  display: block;
+  filter: brightness(100);
+}
+.drink-select-but{
+  padding-left: 32px;
+}
+.drink-catalog-all{
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  width: 1059px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+footer {
+  background: #2f2f2f;
 }

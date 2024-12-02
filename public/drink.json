@@ -1,0 +1,38 @@
+[
+    {
+"img": "./kola1.png",
+"name": "Coca Cola",
+"size": 0.5,
+"price": 45
+    },
+    {
+"img": "./kola2.png",
+"name": "Coca Cola Zero",
+"size": 0.5,
+"price": 45
+    },
+    {
+"img": "./kola3.png",
+"name": "Cola-Cola Сoffee",
+"size": 0.25,
+"price": 38
+    },
+    {
+"img": "./sprite1.png",
+"name": "Sprite",
+"size": 0.5,
+"price": 45
+    },
+    {
+"img": "./fanta.png",
+"name": "Fanta",
+"size": 0.5,
+"price": 45
+    },
+    {
+"img": "./voda1.png",
+"name": "Bon Aqua",
+"size": 0.5,
+"price": 35
+    }
+]
